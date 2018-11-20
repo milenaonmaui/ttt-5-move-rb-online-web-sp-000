@@ -7,9 +7,9 @@ def display_board(board)
 end
 
 def input_to_index(i)
-  i.to_i
+  i.to_i -1
 end
 
 def move(board, i, character='X')
-  board[i-1] = character
+  board[i] = character
 end
